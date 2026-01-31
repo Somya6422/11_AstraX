@@ -1,0 +1,24 @@
+{
+    "name": "unspoken",
+    "version": "1.0.0",
+    "description": "UNSPOKEN: Smart Glove for Communication Barrier Accessibility",
+    "private": true,
+    "scripts": {
+        "build": "cd webapp && npm run build",
+        "start": "cd server && node index.js",
+        "dev": "cd webapp && npm run dev",
+        "setup": "cd server && npm install && cd ../webapp && npm install",
+        "production": "npm run build && npm run start"
+    },
+    "keywords": [
+        "assistive-tech",
+        "accessibility",
+        "sign-language",
+        "raspberry-pi"
+    ],
+    "author": "UNSPOKEN Team",
+    "license": "MIT",
+    "dependencies": {
+        "node-fetch": "^3.3.2"
+    }
+}
